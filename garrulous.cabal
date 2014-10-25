@@ -1,0 +1,20 @@
+name:                garrulous
+version:             0.1.0.0
+synopsis:            A chat service for friends
+description:         Standalone chat server
+homepage:            bitemyapp.com
+license:             MIT
+license-file:        LICENSE
+author:              Chris Allen
+maintainer:          cma@bitemyapp.com
+copyright:           2014, Chris Allen
+category:            Network
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Network.Chat.Garrulous
+  main-is:             Network.Chat.Garrulous
+  build-depends:       base >=4.7 && <4.8
+  hs-source-dirs:      src
+  default-language:    Haskell2010
